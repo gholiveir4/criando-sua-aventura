@@ -1,0 +1,53 @@
+/* Estilos globais */
+body {
+    background-color: #1D4221;
+    color: #FFFFFF;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Garante que o conteúdo ocupe toda a altura da tela */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização de botões */
+button {
+    background-color: #64A712;
+    color: #FFFFFF;
+    font-family: inherit; /* Herda a fonte do body */
+    font-size: 1rem; /* Tamanho da fonte relativo */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mãozinha */
+    transition: background-color 0.3s ease; /* Transição suave para hover */
+}
+
+button:hover {
+    background-color: #558C10; /* Cor ligeiramente mais escura no hover */
+}
+
+/* Estilos para as seções */
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    text-align: center;
+    max-width: 80%; /* Reduz a largura máxima para um layout mais centrado */
+    padding: 20px; /* Adiciona espaçamento interno */
+}
+
+/* Estilos para imagens */
+img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do container */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas para um visual mais suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil */
+}
